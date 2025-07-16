@@ -1,0 +1,6 @@
+version: '3'
+services:
+  mobile-shop:
+    image: yuraridhu/app-deploy-dev:latest
+    ports:
+      - "80:80"
