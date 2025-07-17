@@ -1,4 +1,4 @@
 #!/bin/bash
 docker-compose down
-docker pull yuraridhu/app-deploy-dev:latest
+docker pull yuraridhu/app-deploy-prod:latest
 docker-compose up -d
